@@ -76,3 +76,7 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+.container {
+  min-height: calc(100vh - (130px + 150px));
+}
